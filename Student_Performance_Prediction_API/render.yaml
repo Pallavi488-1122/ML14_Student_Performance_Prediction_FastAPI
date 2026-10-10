@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: student-performance-prediction-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
